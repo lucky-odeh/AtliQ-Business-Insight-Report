@@ -27,7 +27,35 @@ The dataset used for this analysis contains over a million records with attribut
 Cleaned and structured data, ready for analysis and visualization
 
 ## Data Modeling
-Established relationship betweeb key tables: dimension tables and the facts tables as seen below
+Established relationship between key tables: dimension tables and the facts tables as seen below:
+
+![](data_model.PNG)
+
+The data model is a star schema. There are 8 fact tables and 7 dimension tables. The dimension tables are all joined to the fact tables on a one-to-many relationship.
+
+## DAX measures
+Some of the DAX measures that was created are:
+```dax
+Net Sales = SUM(facts_actual_estimate[net_sales])
+
+Net Sales LY = CALCULATE([Net Sales], SAMEPERIODLASTYEAR(dim_date[date]))
+
+Revenue Contribution % = DIVIDE([Net Sales], CALCULATE([Net Sales], ALL(dim_customer), ALL(dim_market), ALL(dim_product)))
+```
+## Visualization and Analysis
+The analysis was divided into 5 dashboard pages, with each pages targeting specific insights. You can interact with the report [here](https://app.powerbi.com/groups/me/reports/de7e81bb-1f17-4119-860f-99ba8dbca1ea/ReportSection?experience=power-bi)
+
+### Page 1: Executive View
+![](executive_view.PNG)
+### Key Visuals:
+
+
+
+
+
+
+
+
 
 
 
