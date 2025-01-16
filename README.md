@@ -15,7 +15,19 @@ The goal of this project is to create an interactive dashboard for various busin
 The dataset used for this analysis contains over a million records with attributes such as "dim_customers", "dim_products", "dim_market", "facts_sales", "facts_forecast_sales" amongst others. These dataset was domiciled in MySQL database, and Power BI was connected to the database to extract the data, and then transformed and loaded in power query.
 ### Tools used:
 - MySQL database: Data storage and validation
-- Power BI: Extract, transform and load, exploratory analysis
+- Power BI: Extract, Transform, Load and performing exploratory analysis
+## Data Cleaning & Preparation in Power Query
+### Steps taken:
+1. **Duplicate Removal:** some of the data contained duplicates which were eliminated
+2. **Replacing value:** replaced some data fields due to spelling mistakes to ensure data integrity
+3. **Change Data type:** applied the right data types for each of the columns in the table
+4. **Join Operations:** applied the "merge query" function in power query to join multiple tables based on columns relationship
+5. **Custom table:** created a date dimension table using M-language
+### Outcome:
+Cleaned and structured data, ready for analysis and visualization
+
+## Data Modeling
+Established relationship betweeb key tables: dimension tables and the facts tables as seen below
 
 
 
