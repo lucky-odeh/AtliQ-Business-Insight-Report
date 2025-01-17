@@ -5,14 +5,14 @@ AtliQ hardware is a rapidly growing company that manufactures PC, Accessories an
 decided to implement data analytics into their business process for the first time to enable them track trends, stay competitive and to make data driven decision.
 ## Objectives
 The goal of this project is to create an interactive dashboard for various business stakeholders that displays revenue figures and performance of the company across different markets, industry, products and customers. 
-## Key Qestions
-1. Who are the company's top customers in terms of revenue generated?
-2. What are the top performing products and least performing products in terms of revenue?
-3. What has been the trend of the market share of the company over the years?
-4. Which market is the company performing the most?
-5. What is the demand forecast of the company in terms of forecast accuracy?
+## Key Questions
+1. Who are the company’s top revenue-generating customers, and how much revenue did they contribute?
+2. Which products are the top performers in terms of revenue, and what are their respective contributions?
+3. What has been the trend in the company’s market share over the years, and what factors influenced this trend?
+4. Which market or region has been the most profitable for the company, and what is driving its success?
+5. How accurate has the company’s demand forecasting been, and what is the forecast accuracy for key products and customers?
 ## Data Collection
-The dataset used for this analysis contains over a million records with attributes such as "dim_customers", "dim_products", "dim_market", "facts_sales", "facts_forecast_sales" amongst others. These dataset was domiciled in MySQL database, and Power BI was connected to the database to extract the data, and then transformed and loaded in power query.
+The dataset for this analysis comprises over a million records, including attributes such as **dim_customers**, **dim_products**, **dim_market**, **facts_sales**, and **facts_forecast_sales**, among others. The data was stored in a MySQL database, from which it was connected to Power BI for extraction. The data was then transformed and loaded into Power Query for analysis.
 
 ## Data Cleaning & Preparation in Power Query
 ### Steps taken:
@@ -25,7 +25,7 @@ The dataset used for this analysis contains over a million records with attribut
 Cleaned and structured data, ready for analysis and visualization
 
 ## Data Modeling
-Established relationship between key tables: dimension tables and the facts tables as seen below:
+Established relationship between key tables: **dimension tables** and the **facts tables** as seen below:
 
 ![](data_model.PNG)
 
@@ -51,10 +51,10 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
   ![](kpi.PNG)
   
 **Insights:** 
-- The company recorded about $823 million in net sales/revenue in year 2021, when compared with previous year of $267 million which is a 207% increase year-on-year
-- Recorded a gross margin of 36.49% in 2021, when compared with previous year at 37.1% which is a slight decrease due to high cost of gooods sold
+- The company recorded about **$823 million** in net sales/revenue in year 2021, when compared with previous year of **$267 million** which is a **207%** increase year-on-year
+- Recorded a gross margin of **36.49%** in 2021, when compared with previous year at **37.1%** which is a slight decrease due to high cost of gooods sold
 - The company has been recording a negative net profit for years due to the business strategy of market penetration. The focus of the company is to gain enough market share and generate more revenue at the expense of profit.
-- The forecast accuracy of the company which compares the actual sales and forecasted sales has been steadily increasing over the years, with the company recording 80.21% in 2021 when compared with 72.99% in previous years.
+- The forecast accuracy of the company which compares the actual sales and forecasted sales has been steadily increasing over the years, with the company recording **80.21%** in 2021 when compared with **72.99%** in previous years.
   
 **Recommendation:** 
 - While revenue growth is impressive, the slight decline in gross margin highlights the need to optimize cost of goods sold. Negotiate better supplier contracts and explore cost-saving measures to improve margins.
@@ -66,8 +66,8 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
    ![](product_customers.PNG)
 
    **Insights:** 
-   - The top 5 customers bringing the highest revenue are Amazon, AtliQ Exclusive, Atliq e Store, Sage and Flipkart with Amazon being the top customer that generated $109 million in 2021
-   - The top 5 product bring the highest sales are AQ BZ Allin1, AQ Qwerty, AQ Trigger, AQ Gen Y and AQ Maxima with AQ BZ Allin 1 being the top product that generated $33 million in 2021.
+   - The top 5 customers bringing the highest revenue are **Amazon**, **AtliQ Exclusive**, **Atliq e Store**, **Sage** and **Flipkart** with Amazon being the top customer that generated **$109 million** in 2021
+   - The top 5 product bring the highest sales are **AQ BZ Allin1**, **AQ Qwerty**, **AQ Trigger**, **AQ Gen Y** and **AQ Maxima** with **AQ BZ Allin 1** being the top product that generated **$33 million** in 2021.
 
   **Recommendation:**
 - Prioritize strategic partnerships with top customers, especially Amazon, which contributed $109 million in revenue. Explore joint marketing campaigns and exclusive deals to deepen collaboration and drive mutual growth.
@@ -78,7 +78,7 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](market_share.PNG)
 
   **Insights:** 
- - AtliQ has demonstrated consistent growth in market share over recent years, increasing from a modest 0.1% in 2018 to 0.2% in 2019, 0.4% in 2020, and achieving 1.1% in 2021. Projections indicate a significant surge to 5.9% market share in 2022, showcasing the company's rapid market expansion and competitive positioning. Currently, AtliQ is still maintaining the 5th position in the industry.
+ - AtliQ has demonstrated consistent growth in market share over recent years, increasing from a modest **0.1%** in 2018 to **0.2%** in 2019, **0.4%** in 2020, and achieving **1.1%** in 2021. Projections indicate a significant surge to **5.9%** market share in 2022, showcasing the company's rapid market expansion and competitive positioning. Currently, AtliQ is still maintaining the 5th position in the industry.
 
   **Recommendation:**
 - Leverage current strategies driving market share expansion, such as competitive pricing, targeted marketing, and product innovation.
@@ -89,8 +89,8 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](division.PNG)
  
   **Insights:** 
-  -  In 2021, the Peripheral & Accessories (P&A) division led the company’s revenue generation with an impressive $411.35 million, followed by the Personal Computer (PC) division at $312.91 million. The Networking & Storage (N&S) division contributed the least, recording $99.58 million in revenue.
-  - In 2021, Retailers emerged as the top-performing sales channel, generating $591.97 million in revenue. This was followed by Direct-to-Consumer sales, which contributed $139.4 million, while the Distributor channel recorded the lowest revenue at $92.42 million.
+  -  In 2021, the **Peripheral & Accessories (P&A)** division led the company’s revenue generation with an impressive **$411.35 million**, followed by the **Personal Computer (PC)** division at **$312.91 million**. The **Networking & Storage (N&S)** division contributed the least, recording **$99.58 million** in revenue.
+  - In 2021, **Retailers** emerged as the top-performing sales channel, generating **$591.97 million** in revenue. This was followed by **Direct-to-Consumer** sales, which contributed **$139.4 million**, while the **Distributor channel** recorded the lowest revenue at **$92.42 million**.
 
  **Recommendation:**
  -  Peripheral & Accessories leading in the division, the company should invest in product innovation, marketing, and partnerships to maintain its competitive edge and capitalize on growing demand.
@@ -105,8 +105,8 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](region.PNG)
 
   **Insights:** 
-  - In 2021, the Asia Pacific (APAC) region generated the highest profit, totaling $441.98 million, followed by the European Union (EU) with $200.77 million. The Latin America (LATAM) region recorded the lowest profit, amounting to $3.16 million.
-  - Within the Asia Pacific region, India emerged as the top performer, generating $210 million in revenue. In contrast, the Latin America subzone recorded the lowest revenue, totaling $3.2 million.
+  - In 2021, the **Asia Pacific (APAC)** region generated the highest profit, totaling **$441.98 million**, followed by the **European Union (EU)** with **$200.77 million**. The **Latin America (LATAM)** region recorded the lowest profit, amounting to **$3.16 million**.
+  - Within the Asia Pacific region, **India** emerged as the top performer, generating **$210 million** in revenue. In contrast, the **Latin America** subzone recorded the lowest revenue, totaling **$3.2 million**.
 
 **Recommendation:**
 - Given that APAC generated the highest revenue ($441.98 million), continue to invest in this high-performing region through strategic partnerships, market expansion, and targeted marketing to maintain and grow its market share.
@@ -139,7 +139,7 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](customers.PNG)
 
   **Insights:**
-  - In 2021, Amazon emerged as the company’s top revenue contributor, generating $109 million, followed by AtliQ Exclusive, AtliQ eStore, Sage, and Flipkart.
+  - In 2021, **Amazon** emerged as the company’s top revenue contributor, generating **$109 million**, followed by **AtliQ Exclusive**, **AtliQ e Store**, **Sage**, and **Flipkart**.
 
 **Recommendation:** 
 - The company should focus on strengthening partnerships with top-performing customers like Amazon and explore opportunities to increase collaboration with other key contributors such as AtliQ Exclusive, AtliQ eStore, Sage, and Flipkart to drive further revenue growth.
@@ -154,8 +154,8 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](products.PNG)
 
   **Insights:**
-  - In 2021, the Notebook segment led the business in revenue generation, contributing $266.49 million. Within this segment, the **Personal Laptop** was the top-performing product, followed by the **Gaming Laptop**. The Accessories segment ranked second, generating $244.85 million in revenue.
-  - The Networking segment was the least performing business segment in 2021, generating $45.16 million in revenue.
+  - In 2021, the **Notebook segment** led the business in revenue generation, contributing **$266.49 million**. Within this segment, the **Personal Laptop** was the top-performing product, followed by the **Gaming Laptop**. The **Accessories segment** ranked second, generating **$244.85 million** in revenue.
+  - The **Networking segment** was the least performing business segment in 2021, generating **$45.16 million** in revenue.
 
 **Recommendation:**
 - The company should Prioritize expanding the Notebook segment by enhancing the product portfolio and targeting high-demand categories like Personal Laptops and Gaming Laptops, while also leveraging the strong performance of the Accessories segment by introducing complementary products and cross-selling opportunities.
@@ -171,8 +171,8 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
  ![](forecast.PNG)
 
  **Insights:**
- - In 2021, the forecast accuracy for the top customers demonstrated strong performance, with AtliQ eStore achieving 74.59% accuracy, closely followed by Amazon at 74.54%. These results reflect the company’s effective forecasting process, aligning predictions with actual demand and reducing the risk of excess inventory or stockouts.
-  - In 2021, the forecast accuracy for top products showcased exceptional performance, with the Networking segment achieving 90.40% accuracy, followed by Desktop at 84.37%. These high accuracy levels highlight the company’s effective forecasting capabilities, ensuring demand predictions are closely aligned with actual sales, thereby minimizing excess inventory and stockout risks.
+ - In 2021, the forecast accuracy for the top customers demonstrated strong performance, with **AtliQ eStore** achieving **74.59%** accuracy, closely followed by **Amazon** at **74.54%**. These results reflect the company’s effective forecasting process, aligning predictions with actual demand and reducing the risk of excess inventory or stockouts.
+  - In 2021, the forecast accuracy for top products showcased exceptional performance, with the **Networking segment** achieving **90.40%** accuracy, followed by **Desktop** at **84.37%**. These high accuracy levels highlight the company’s effective forecasting capabilities, ensuring demand predictions are closely aligned with actual sales, thereby minimizing excess inventory and stockout risks.
 
 **Recommendation:**
 - The supply chain department should enhance forecast accuracy further by leveraging advanced analytics and machine learning models to refine demand predictions, focusing on top customers like AtliQ eStore, Amazon and top segments like Networking and Desktop to optimize inventory management and improve operational efficiency.
@@ -192,7 +192,9 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
 ### Contact Information
 Email: luckyodeh001@gmail.com
 
-Linkedin: [here](www.linkedin.com/in/lucky-odeh-nosakhare)
+Linkedin: [linkedin Profile](https://www.linkedin.com/in/lucky-odeh-nosakhare)
+
+
 
 
 
