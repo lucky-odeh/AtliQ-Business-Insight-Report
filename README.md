@@ -13,9 +13,7 @@ The goal of this project is to create an interactive dashboard for various busin
 5. What is the demand forecast of the company in terms of forecast accuracy?
 ## Data Collection
 The dataset used for this analysis contains over a million records with attributes such as "dim_customers", "dim_products", "dim_market", "facts_sales", "facts_forecast_sales" amongst others. These dataset was domiciled in MySQL database, and Power BI was connected to the database to extract the data, and then transformed and loaded in power query.
-### Tools used:
-- MySQL database: Data storage and validation
-- Power BI: Extract, Transform, Load and performing exploratory analysis
+
 ## Data Cleaning & Preparation in Power Query
 ### Steps taken:
 1. **Duplicate Removal:** some of the data contained duplicates which were eliminated
@@ -115,6 +113,95 @@ The analysis was divided into 5 dashboard pages, with each pages targeting speci
 - With $200.77 million in revenue, the EU region is a strong contributor. Focus on further penetration into underdeveloped markets within the EU, while enhancing product offerings and customer engagement to boost revenue.
 - The LATAM region generated the lowest profit ($3.16 million). Conduct a thorough market analysis to identify challenges and opportunities, optimize pricing strategies, and explore new distribution channels to drive growth in this underperforming region.
 - With $210 million in revenue, India is a key performer in the Asia Pacific region. Focus on expanding product offerings, increasing local partnerships, and investing in marketing to further capitalize on the growing Indian market.
+
+### Page 2: Finance View
+
+ ![](finance_view.PNG)
+
+ ### Key Visual:
+**Revenue Performance Over Time:**
+
+![](net_sales.PNG)
+
+ **Insights:** 
+ - Starting in September 2020, revenue experienced steady growth, peaking in December 2020 due to high demand. However, it declined in January 2021 and has remained relatively stable at a consistent level from January to August 2021. Revenue has outperformed the same period in the previous year, demonstrating improved performance.
+
+**Recommendation:**
+- Focus should be  on sustaining revenue growth by leveraging high-demand periods, optimizing pricing strategies, and enhancing marketing efforts to maintain consistent performance year-round.
+
+### Page 3: Sales View
+
+![](sales_view.PNG)
+
+ ### Key Visual:
+ **Customers Performance**
+
+ ![](customers.PNG)
+
+  **Insights:**
+  - In 2021, Amazon emerged as the company’s top revenue contributor, generating $109 million, followed by AtliQ Exclusive, AtliQ eStore, Sage, and Flipkart.
+
+**Recommendation:** 
+- The company should focus on strengthening partnerships with top-performing customers like Amazon and explore opportunities to increase collaboration with other key contributors such as AtliQ Exclusive, AtliQ eStore, Sage, and Flipkart to drive further revenue growth.
+
+### Page 4: Marketing View
+
+![](marketing_view.PNG)
+
+### Key Visual:
+ **Product Performance**
+
+ ![](products.PNG)
+
+  **Insights:**
+  - In 2021, the Notebook segment led the business in revenue generation, contributing $266.49 million. Within this segment, the **Personal Laptop** was the top-performing product, followed by the **Gaming Laptop**. The Accessories segment ranked second, generating $244.85 million in revenue.
+  - The Networking segment was the least performing business segment in 2021, generating $45.16 million in revenue.
+
+**Recommendation:**
+- The company should Prioritize expanding the Notebook segment by enhancing the product portfolio and targeting high-demand categories like Personal Laptops and Gaming Laptops, while also leveraging the strong performance of the Accessories segment by introducing complementary products and cross-selling opportunities.
+- Focus should be on revitalizing the **Networking segment** by identifying market gaps, improving product offerings, and investing in targeted marketing strategies to enhance visibility and drive revenue growth.
+
+### Page 5: Supply Chain View
+
+![](supply_chain_view.PNG)
+
+### Key Visual:
+ **Forecast Accuracy**
+
+ ![](forecast.PNG)
+
+ **Insights:**
+ - In 2021, the forecast accuracy for the top customers demonstrated strong performance, with AtliQ eStore achieving 74.59% accuracy, closely followed by Amazon at 74.54%. These results reflect the company’s effective forecasting process, aligning predictions with actual demand and reducing the risk of excess inventory or stockouts.
+  - In 2021, the forecast accuracy for top products showcased exceptional performance, with the Networking segment achieving 90.40% accuracy, followed by Desktop at 84.37%. These high accuracy levels highlight the company’s effective forecasting capabilities, ensuring demand predictions are closely aligned with actual sales, thereby minimizing excess inventory and stockout risks.
+
+**Recommendation:**
+- The supply chain department should enhance forecast accuracy further by leveraging advanced analytics and machine learning models to refine demand predictions, focusing on top customers like AtliQ eStore, Amazon and top segments like Networking and Desktop to optimize inventory management and improve operational efficiency.
+
+## Recommendations Summary
+1. Strengthen partnerships with top customers  while exploring growth opportunities with other key customers to drive revenue expansion.
+2. Optimize cost of goods sold, negotiate better supplier contracts and explore cost-saving measures to improve gross margins.
+3. Leverage current market penetration strategy in driving market share expansion, such as competitive pricing, targeted marketing, and product innovation.
+4. The company should invest in product innovation, marketing, and partnerships to maintain its competitive edge and capitalize on growing demand.
+5. Focus should be on enhancing partnerships, offering exclusive deals, and providing better support to further boost sales through its various sales channel.
+6. Enhance forecast accuracy further by utilizing advanced analytics and machine learning models to optimize inventory management and reduce stockouts or excess inventory.
+
+### Tools used:
+- MySQL database: Data storage and validation
+- Power BI: Extract, Transform, and Load. Also, for performing exploratory analysis, dashboard creation, interactivity, and visual analysis.
+
+### Contact Information
+Email: luckyodeh001@gmail.com
+
+Linkedin: [here](www.linkedin.com/in/lucky-odeh-nosakhare)
+
+
+
+ 
+
+ 
+
+
+ 
  
 
 
