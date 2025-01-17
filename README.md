@@ -12,7 +12,7 @@ The goal of this project is to create an interactive dashboard for various busin
 4. Which market or region has been the most profitable for the company, and what is driving its success?
 5. How accurate has the company’s demand forecasting been, and what is the forecast accuracy for key products and customers?
 ## Data Collection
-The dataset for this analysis comprises over a million records, including attributes such as **dim_customers**, **dim_products**, **dim_market**, **facts_sales**, and **facts_forecast_sales**, among others. The data was stored in a MySQL database, from which it was connected to Power BI for extraction. The data was then transformed and loaded into Power Query for analysis.
+The dataset for this analysis comprises over a million records and the period under review is between 2017 to 2021. The data includes attributes such as **dim_customers**, **dim_products**, **dim_market**, **facts_sales**, and **facts_forecast_sales**, among others. The data was stored in a MySQL database, from which it was connected to Power BI for extraction. The data was then transformed and loaded into Power Query for analysis.
 
 ## Data Cleaning & Preparation in Power Query
 ### Steps taken:
