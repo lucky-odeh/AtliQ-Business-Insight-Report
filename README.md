@@ -1,7 +1,7 @@
 # AtliQ Business Insight Report
 ---
 ## Company Overview
-AtliQ hardware is a rapidly growing fictional company that manufactures PC, Accessories and peripherals, and in recent years, they have
+AtliQ hardware is a rapidly growing  company that manufactures PC, Accessories and peripherals, and in recent years, they have
 decided to implement data analytics into their business process for the first time to enable them track trends, stay competitive and to make data driven decision.
 ## Objectives
 The objective of this project is to create an interactive dashboard for various business stakeholders that displays revenue figures and performance of the company across different markets, industry, products and customers. 
