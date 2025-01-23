@@ -4,7 +4,7 @@
 AtliQ hardware is a rapidly growing fictional company that manufactures PC, Accessories and peripherals, and in recent years, they have
 decided to implement data analytics into their business process for the first time to enable them track trends, stay competitive and to make data driven decision.
 ## Objectives
-The goal of this project is to create an interactive dashboard for various business stakeholders that displays revenue figures and performance of the company across different markets, industry, products and customers. 
+The objective of this project is to create an interactive dashboard for various business stakeholders that displays revenue figures and performance of the company across different markets, industry, products and customers. 
 ## Key Questions
 1. Who are the company’s top revenue-generating customers, and how much revenue did they contribute?
 2. Which products are the top performers in terms of revenue, and what are their respective contributions?
